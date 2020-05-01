@@ -155,12 +155,12 @@ $ conda activate DECoNT_env
 - After initializing the envorinment, run decont as follows:
 
 ```shell
-$ python ./DECoNT_polish.py -m pretrained -cnn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/
+$ python ./DECoNT_polish.py -m pretrained -cn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/
 ```
 - Optionally, if you have available gpu's, you can set -g argument to PCI BUS ID of the GPU you want to use. Please refer to Optional Arguments section. By default, script will use CPU.
 
 ```shell
-$ python ./DECoNT_polish.py -g 5 -m pretrained -cnn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/ 
+$ python ./DECoNT_polish.py -g 5 -m pretrained -cn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/ 
 ```
 
 ### Output file of DECoNT

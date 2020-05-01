@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="400" height="300" class="center"></a><br>
+<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="200" height="150" class="center"></a><br>
 
 
 # DECoNT
@@ -11,13 +11,13 @@
 > Usage of DECoNT is very simple, also it comes with ETA and progress bar features.
 
 <p align="center">
-<img src="./decont_example.png"  width="400" height="300" class="center">
+<img src="./decont_example.png"   class="center">
 
 ---
 
 ## Table of Contents 
 
-> If your `README` has a lot of info, section headers might be nice.
+> Warning: Please note that DECoNT software is completely free for academic usage. However it is licenced for commercial usage. Please first refer to the [License](#license) section for more info.
 
 - [Installation](#installation)
 - [Features](#features)
@@ -29,27 +29,12 @@
 
 ---
 
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
-
----
-
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- DECoNT does not require installation in conventional manner. DECoNT is a python3 script ready to run with required packages installed. For easy requirement handling, you can use DECoNT_env.yml file to initialize appropriate environment with conda using: conda env create -f DECoNT_env.yml
+- DECoNT also provides GPU support for faster processing. For further info please see [GPU Support]
 
-### Clone
+### Requirements
 
 - Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
 
@@ -76,6 +61,8 @@ $ bower install
 ---
 
 ## Features
+### GPU Support
+
 ## Usage (Optional)
 ## Documentation (Optional)
 ## Tests (Optional)

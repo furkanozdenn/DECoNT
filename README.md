@@ -1,4 +1,4 @@
-<a href="https://ciceklab.cs.bilkent.edu.tr/"><img src="./ciceklogo.png"  width="100"></a>
+<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="200"></a>
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 

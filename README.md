@@ -12,7 +12,9 @@
 
 <p align="center">
 <img src="./decont_example.png"   class="center">
-
+---
+## Authors
+Furkan Ozden, Can Alkan, A. Ercument Cicek
 ---
 
 ## Table of Contents 
@@ -93,13 +95,23 @@ $ gpustat
 ``` 
 <img src="./gpustatexample.png"   class="center">
 
+#### -v, --version
+-Check the version of DECoNT.
+
+#### -h, --help
+-See help page.
 
 
 
+## Usage Examples
 
-### GPU Support
+### Step-1: Use your preferred WES-based CNV caller to call CNVs on your WES dataset.
+- For XHMM refer to: <a href="https://atgu.mgh.harvard.edu/xhmm/tutorial.shtml" target="_blank">**XHMM Manual Page**</a>
+- For CoNIFER refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CoNIFER Manual Page**</a>
+- For CODEX2 refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CoNIFER Manual Page**</a>
+- For Control-FREEC refer to:
 
-## Usage (Optional)
+
 ## Documentation (Optional)
 ## Tests (Optional)
 

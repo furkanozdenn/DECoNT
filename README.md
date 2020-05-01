@@ -117,11 +117,24 @@ $ gpustat
 ### Step-1: Use your preferred WES-based CNV caller to call CNVs on your WES dataset.
 - For XHMM refer to: <a href="https://atgu.mgh.harvard.edu/xhmm/tutorial.shtml" target="_blank">**XHMM Manual Page**</a>
 - For CoNIFER refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CoNIFER Manual Page**</a>
-- For CODEX2 refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CoNIFER Manual Page**</a>
-- For Control-FREEC refer to:
+- For CODEX2 refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CODEX2 Manual Page**</a>
+- For Control-FREEC refer to: <a href="http://boevalab.inf.ethz.ch/FREEC/tutorial.html" target="_blank">**Control-FREEC Manual Page**</a>
+
+After obtaining output file from one of these tools, store it.
 
 
-## Documentation (Optional)
+### Step-2: Obtain Read Depth information of the WES samples used in the CNV calling.
+- Read depth counts obtained using <a href="https://lomereiter.github.io/sambamba/" target="_blank">**Sambamba**</a> tool are directly accepted by DECoNT. Note that you should use -w option of sambamba with parameter 1000. By doing so, sambamba sets base-pair resolution to 1000bp. You can run sambamba on your inputs as follows:
+
+```shell
+$ sambamba depth window -w 1000 HG00096.wes.bam > /home/user/sambamba_read_depths/HG00096.wes.bam_read_depths.txt
+``` 
+- Note that, all read depth files must have SAMPLENAME. prefix in the file name.
+- You can use any read depth generator you like, however for DECoNT to have unified input format, we require the following format for read depth files:
+
+
+
+
 ## Tests (Optional)
 
 - Going into more detail on code and technologies used

@@ -19,6 +19,11 @@ Furkan Ozden, Can Alkan, A. Ercument Cicek
 
 ---
 
+## Questions & comments 
+
+[firstauthorname].[firstauthorsurname]@bilkent.edu.tr
+
+---
 
 
 ## Table of Contents 

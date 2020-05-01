@@ -21,7 +21,8 @@
 
 - [Installation](#installation)
 - [Features](#features)
-- [Instructions Manual](#instructionsmanual)
+- [Instructions Manual](#instructions-manual)
+- [Usage Examples](#usage-examples)
 - [Contributing](#contributing)
 - [FAQ](#faq)
 - [Support](#support)

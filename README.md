@@ -1,4 +1,4 @@
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
+<a href="https://w3.bilkent.edu.tr/bilkent/"><img src="http://w3.bilkent.edu.tr/logo/ing-amblem.png" title="Bilkent University" alt="Bilkent University"></a>
 
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
@@ -29,7 +29,7 @@
 
 ***INSERT ANOTHER GRAPHIC HERE***
 
-[![INSERT YOUR GRAPHIC HERE](http://i.imgur.com/dt8AUb6.png)]()
+[![INSERT YOUR GRAPHIC HERE](http://w3.bilkent.edu.tr/logo/ing-amblem.png)]()
 
 - Most people will glance at your `README`, *maybe* star it, and leave
 - Ergo, people should understand instantly what your project is about based on your repo

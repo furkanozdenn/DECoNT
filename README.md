@@ -1,5 +1,5 @@
-<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="400" height="300"></a>
-<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./ciceklogo.png"  width="400" height="300"></a>
+<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="400" height="300" class="center"></a><br>
+<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./ciceklogo.png"  width="200" height="200" class="center"></a>
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***

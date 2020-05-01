@@ -13,8 +13,11 @@
 <p align="center">
 <img src="./decont_example.png"   class="center">
 ---
+
 ## Authors
+
 Furkan Ozden, Can Alkan, A. Ercument Cicek
+
 ---
 
 ## Table of Contents 

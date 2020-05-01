@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="400" height="300" class="center"></a><br>
-<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./ciceklogo.png"  width="200" height="200" class="center"></a>
+
 
 # DECoNT
 

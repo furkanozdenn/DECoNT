@@ -3,6 +3,9 @@
 
 # Polishing Copy Number Variant Calls on Exome Sequencing Data via Deep Learning
 
+<p align="center">
+<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="200" height="150" class="center"></a><br>
+
 > DECoNT is a deep learning based software that corrects CNV predictions on exome sequencing data using read depth sequences.
 
 > <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">**Deep Learning**</a>, <a href="https://en.wikipedia.org/wiki/Copy-number_variation" target="_blank">**Copy Number Variation**</a>, <a href="https://en.wikipedia.org/wiki/Exome_sequencing" target="_blank">**Whole Exome Sequencing**</a>
@@ -16,8 +19,7 @@ Furkan Ozden, Can Alkan, A. Ercument Cicek
 
 ---
 
-<p align="center">
-<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="200" height="150" class="center"></a><br>
+
 
 ## Table of Contents 
 

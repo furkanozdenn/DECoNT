@@ -21,6 +21,7 @@
 
 - [Installation](#installation)
 - [Features](#features)
+- [Instructions Manual](#instructionsmanual)
 - [Contributing](#contributing)
 - [FAQ](#faq)
 - [Support](#support)
@@ -31,36 +32,29 @@
 
 ## Installation
 
-- DECoNT does not require installation in conventional manner. DECoNT is a python3 script ready to run with required packages installed. For easy requirement handling, you can use DECoNT_env.yml file to initialize appropriate environment with conda using: conda env create -f DECoNT_env.yml
-- DECoNT also provides GPU support for faster processing. For further info please see [GPU Support]
+- DECoNT does not require installation in conventional manner. DECoNT is a python3 script ready to run with required packages installed. 
 
 ### Requirements
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Python 3.7.6
+- NumPy 1.16.2
+- Pandas 1.0.0
+- TensorFlow 1.14.0
+- Keras-gpu 2.2.4
+- Scikit-Learn 0.22.1
+- keras-metrics 1.1.0
 
-### Setup
-
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
-
+For easy requirement handling, you can use DECoNT_env.yml file to initialize appropriate environment with conda using:
 ```shell
-$ brew update
-$ brew install fvcproductions
+$ conda env create -f DECoNT_env.yml
 ```
-
-> now install npm and bower packages
-
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
-
 ---
 
 ## Features
+
+## Instructions Manual
+
+
 ### GPU Support
 
 ## Usage (Optional)

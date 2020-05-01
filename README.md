@@ -85,19 +85,12 @@ $ conda activate DECoNT_env
 
 #### -g, --gpu
 - Set to PCI BUS ID of the gpu in your system.
-- You can check, PCI BUS IDs of the gpus in your system with various ways. Here are some examples.
-```shell
-$ nvidia-smi
-```
+- You can check, PCI BUS IDs of the gpus in your system with various ways. Using gpustat tool check IDs of the gpus in your system like below:
+
 ```shell
 $ gpustat
 ``` 
-
-```python
-import os
-os.environ
-```
-
+<img src="./gpustatexample.png"   class="center">
 
 
 

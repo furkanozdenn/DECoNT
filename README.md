@@ -155,9 +155,14 @@ $ python ./DECoNT_polish.py -m pretrained -cnn XHMM -i /home/user/analysis.txt -
 - Optionally, if you have available gpu's, you can set -g argument to PCI BUS ID of the GPU you want to use. Please refer to Optional Arguments section. By default, script will use CPU.
 
 ```shell
-$ python ./DECoNT_polish.py -m pretrained -cnn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/ -g 5
+$ python ./DECoNT_polish.py -g 5 -m pretrained -cnn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/ 
 ```
 
+### Output file of DECoNT
+- At the end of the polishing procedure, DECoNT will write its output file to the directory given with -o option. In this tutorial it is /home/user/
+- Output file of DECoNT is a tab-delimited .bed like format. In the following figure, we see an example output of DECoNT.
+
+<img src="./exampleoutput.png"   class="center">
 
 ---
 

@@ -2,17 +2,11 @@
 <a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="400" height="300" class="center"></a><br>
 <a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./ciceklogo.png"  width="200" height="200" class="center"></a>
 
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
+# DECoNT
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
+> DECoNT is a deep learning based software that corrects CNV predictions on exome sequencing data using read depth sequences.
 
-# Repository Title Goes Here
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
+> <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">**Deep Learning**</a>, <a href="https://en.wikipedia.org/wiki/Copy-number_variation" target="_blank">**Copy Number Variation**</a>, <a href="https://en.wikipedia.org/wiki/Exome_sequencing" target="_blank">**Whole Exome Sequencing**</a>
 
 **Badges will go here**
 

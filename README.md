@@ -34,7 +34,6 @@ Furkan Ozden, Can Alkan, A. Ercument Cicek
 - [Features](#features)
 - [Instructions Manual](#instructions-manual)
 - [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
 - [FAQ](#faq)
 - [Citations](#citations)
 - [License](#license)

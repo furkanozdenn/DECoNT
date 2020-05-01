@@ -121,6 +121,7 @@ $ gpustat
 - For CODEX2 refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CODEX2 Manual Page**</a>
 - For Control-FREEC refer to: <a href="http://boevalab.inf.ethz.ch/FREEC/tutorial.html">**Control-FREEC Manual Page**</a>
 - After obtaining output file from one of these tools, store it.
+- For purposes of this tutorial, lets call the output WES CNV file: <b>/home/user/analysis.txt<\b>.
 
 ### Step-2: Obtain read depth files for samples used in WES CNV calling.
 
@@ -134,6 +135,27 @@ $ sambamba depth window -w 1000 HG00096.wes.bam > /home/user/sambamba_read_depth
 
 <img src="./readdepthformat.png"   class="center">
 
+- For purposes of this tutorial, lets call the directory containing all described read depth files :<b>/home/user/sambamba_read_depths/<\b>
+
+### Step-3: Run DECoNT_polish.py on data obtained in Step-1 and Step-2.
+- Requirements of DECoNT must be satisfied. For easy handling of requirements download DECoNT_env.yml file and initialize environment of DECoNT as follows (optional).
+
+```shell
+$ conda env create -f DECoNT_env.yml
+$ conda activate DECoNT_env
+```
+
+- Note: for the scope of this tutorial, we assume that WES CNV calls are obtained using XHMM software. If you obtain WES CNV calls using any other software just change the -cn argument to that software.
+- After initializing the envorinment, run decont as follows:
+
+```shell
+$ python ./DECoNT_polish.py -m pretrained -cnn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/
+```
+- Optionally, if you have available gpu's, you can set -g argument to PCI BUS ID of the GPU you want to use. Please refer to Optional Arguments section. By default, script will use CPU.
+
+```shell
+$ python ./DECoNT_polish.py -m pretrained -cnn XHMM -i /home/user/analysis.txt -o /home/user/ -s /home/user/sambamba_read_depths/ -g 5
+```
 
 
 ---

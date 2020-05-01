@@ -1,5 +1,4 @@
-<p align="center">
-<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="200" height="150" class="center"></a><br>
+
 
 
 # Polishing Copy Number Variant Calls on Exome Sequencing Data via Deep Learning
@@ -8,10 +7,7 @@
 
 > <a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">**Deep Learning**</a>, <a href="https://en.wikipedia.org/wiki/Copy-number_variation" target="_blank">**Copy Number Variation**</a>, <a href="https://en.wikipedia.org/wiki/Exome_sequencing" target="_blank">**Whole Exome Sequencing**</a>
 
-> Usage of DECoNT is very simple, also it comes with ETA and progress bar features.
 
-<p align="center">
-<img src="./decont_example.png"   class="center">
 ---
 
 ## Authors
@@ -19,6 +15,9 @@
 Furkan Ozden, Can Alkan, A. Ercument Cicek
 
 ---
+
+<p align="center">
+<a href="https://ciceklab.cs.bilkent.edu.tr/DECoNT/"><img src="./logo.png"  width="200" height="150" class="center"></a><br>
 
 ## Table of Contents 
 
@@ -107,6 +106,11 @@ $ gpustat
 
 
 ## Usage Examples
+
+> Usage of DECoNT is very simple, also it comes with ETA and progress bar features!
+
+<p align="center">
+<img src="./decont_example.png"   class="center">
 
 ### Step-1: Use your preferred WES-based CNV caller to call CNVs on your WES dataset.
 - For XHMM refer to: <a href="https://atgu.mgh.harvard.edu/xhmm/tutorial.shtml" target="_blank">**XHMM Manual Page**</a>

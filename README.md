@@ -121,7 +121,7 @@ $ gpustat
 - For CODEX2 refer to: <a href="http://conifer.sourceforge.net/tutorial.html" target="_blank">**CODEX2 Manual Page**</a>
 - For Control-FREEC refer to: <a href="http://boevalab.inf.ethz.ch/FREEC/tutorial.html">**Control-FREEC Manual Page**</a>
 - After obtaining output file from one of these tools, store it.
-- For purposes of this tutorial, lets call the output WES CNV file: <b>/home/user/analysis.txt<\b>.
+- For purposes of this tutorial, lets call the output WES CNV file:  /home/user/analysis.txt
 
 ### Step-2: Obtain read depth files for samples used in WES CNV calling.
 

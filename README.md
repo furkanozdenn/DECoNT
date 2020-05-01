@@ -160,7 +160,10 @@ $ python ./DECoNT_polish.py -g 5 -m pretrained -cnn XHMM -i /home/user/analysis.
 
 ### Output file of DECoNT
 - At the end of the polishing procedure, DECoNT will write its output file to the directory given with -o option. In this tutorial it is /home/user/
-- Output file of DECoNT is a tab-delimited .bed like format. In the following figure, we see an example output of DECoNT.
+- Output file of DECoNT is a tab-delimited .bed like format. 
+- Columns in the output file of DECoNT are the following with order: 1. Sample Name, 2. Chromosome, 3. CNV Start Index, 4. CNV End Index, 5. XHMM Prediction (XHMM name changes according to the -cn argument), 6. DECoNT Polished Prediction
+- Following figure is an example of DECoNT output file.
+
 
 <img src="./exampleoutput.png"   class="center">
 

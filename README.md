@@ -10,15 +10,12 @@
 
 > Usage of DECoNT is very simple, also it comes with ETA and progress bar features.
 
-
-
-**ttystudio**
-
-![ttystudio GIF](https://raw.githubusercontent.com/chjj/ttystudio/master/img/example.gif)
+<p align="center">
+<img src="./decont_example.png"  width="400" height="300" class="center">
 
 ---
 
-## Table of Contents (Optional)
+## Table of Contents 
 
 > If your `README` has a lot of info, section headers might be nice.
 

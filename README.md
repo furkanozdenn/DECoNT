@@ -48,6 +48,7 @@
 For easy requirement handling, you can use DECoNT_env.yml file to initialize appropriate environment with conda using:
 ```shell
 $ conda env create -f DECoNT_env.yml
+$ conda activate DECoNT_env
 ```
 ---
 

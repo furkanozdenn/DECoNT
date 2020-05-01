@@ -135,7 +135,7 @@ $ sambamba depth window -w 1000 HG00096.wes.bam > /home/user/sambamba_read_depth
 
 <img src="./readdepthformat.png"   class="center">
 
-- For purposes of this tutorial, lets call the directory containing all described read depth files :<b>/home/user/sambamba_read_depths/<\b>
+- For purposes of this tutorial, lets call the directory containing all described read depth files: /home/user/sambamba_read_depths/
 
 ### Step-3: Run DECoNT_polish.py on data obtained in Step-1 and Step-2.
 - Requirements of DECoNT must be satisfied. For easy handling of requirements download DECoNT_env.yml file and initialize environment of DECoNT as follows (optional).

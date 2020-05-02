@@ -139,6 +139,7 @@ $ sambamba depth window -w 1000 HG00096.wes.bam > /home/user/sambamba_read_depth
 
 <img src="./readdepthformat.png"   class="center">
 
+-Note that, DECoNT does not use mean coverage information column provided in the above file format figure. You can fill that column with all 0's.
 - For purposes of this tutorial, lets call the directory containing all described read depth files: /home/user/sambamba_read_depths/
 
 ### Step-3: Run DECoNT on data obtained in Step-1 and Step-2

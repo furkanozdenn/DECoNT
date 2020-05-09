@@ -186,6 +186,6 @@ If you use DECoNT in your research, please cite it.
 ## License
 
 
-- **[JRL license](https://www.oracle.com/technetwork/java/javase/jrl-5-150091.txt)**
+- **[CC BY-NC-SA 2.0](https://creativecommons.org/licenses/by-nc-sa/2.0/)**
 - Copyright 2020 © DECoNT.
 - For commercial usage, please contact.

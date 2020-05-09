@@ -842,6 +842,10 @@ else:
 '''
 Main polishing function. Requires keras and sklearn
 '''
+
+os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+
 import time
 import keras.backend as K
 from tqdm import tqdm
@@ -856,8 +860,10 @@ from keras.models import Sequential, Model, load_model
 from keras.utils import multi_gpu_model
 from sklearn.metrics import precision_score, recall_score, accuracy_score
 
-os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"]= "7"
+if args.gpu:
+    os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+    os.environ["CUDA_VISIBLE_DEVICES"]= args.gpu
+
 dependencies={"categorical_precision" : categorical_precision(),"categorical_recall" : categorical_recall()}
 
 if callername in ["XHMM", "xhmm", "Xhmm"]:

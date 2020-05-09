@@ -69,6 +69,7 @@ $ conda activate DECoNT_env
 - Upcoming version: custom training, custom call polishing.
 
 ## Instructions Manual
+Important notice: Please call the DECoNT_polish.py script from the scripts directory.
 
 ### Required Arguments
 

@@ -185,7 +185,7 @@ If you use DECoNT in your research, please cite it.
 
 ## License
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- **[JRL license](https://www.oracle.com/technetwork/java/javase/jrl-5-150091.txt)**
 - Copyright 2020 © DECoNT.
+- For commercial usage, please contact.

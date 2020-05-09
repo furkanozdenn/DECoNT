@@ -2,7 +2,7 @@
 DECoNT source code.
 DECoNT is a deep learning based WES CNV polisher tool.
 This script, DECoNT_polish.py, is only used to load trained weights of DECoNT models
-and use them to polish calls from XHMM, CoNIFER or CODEX2.
+and use them to polish calls from XHMM, CoNIFER or CODEX2 or Control-FREEC.
 '''
 import sys
 import argparse

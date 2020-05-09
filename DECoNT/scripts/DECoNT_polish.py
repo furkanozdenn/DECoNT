@@ -32,6 +32,15 @@ Helper function to print informative messages to the user.
 '''
 def message(message):
     print("[",datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"]\t", "DECoNT:\t", message)
+    
+try:
+    os.mkdir("../tmp/")
+    os.mkdir("../tmp2/")
+    os.mkdir("../tmp3/")
+except OSError:
+    print ("Creation of the directory %s failed" % path)
+else:
+    print ("Successfully created the directory %s " % path)
 
 ''' 
 Perform I/O operations.

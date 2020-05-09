@@ -34,7 +34,6 @@ Furkan Ozden, Can Alkan, A. Ercument Cicek
 - [Features](#features)
 - [Instructions Manual](#instructions-manual)
 - [Usage Examples](#usage-examples)
-- [FAQ](#faq)
 - [Citations](#citations)
 - [License](#license)
 
@@ -176,20 +175,11 @@ $ python ./DECoNT_polish.py -g 5 -m pretrained -cn XHMM -i /home/user/analysis.t
 
 ---
 
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
-
----
-
 ## Citations
 
 If you use DECoNT in your research, please cite it.
 
 - Bibtex citation
-- citation
-- citation
 
 ---
 
